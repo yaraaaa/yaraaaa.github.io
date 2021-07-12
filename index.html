@@ -8,7 +8,9 @@
 <body>
 <div class="container">
     <section>
-        <button id="button" >Button</button>
+        <input type="button" value="PLAY" onclick="play()" id="button2">
+        <audio id="audioTest" src="bell.mp3"></audio>
+        
         <img src="images/Backgrounds/door2.png" id="door2">
         <img src="images/Backgrounds/door2.png" id="doorB">
         <img src="images/walking_inside_1.png" class="logo" id="walking_inside">
@@ -48,6 +50,16 @@
             <!--<img src="images/Backgrounds/Panel2.png" id="panel2">-->
     </section>
 </div>
+
+<script>
+    function play() {
+      var audio = document.getElementById("audioTest");
+      audio.play();
+    }
+  </script>
+
+  
+
 
 <script type='text/javascript' src='page_controller.js'></script>
 
