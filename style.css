@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#9e97ff, #29196d);
+    overflow-y: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+}
+
+header ul li a:hover, header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+section{
+    position: relative;
+    height: 100vh;    
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #walking_inside{
+    z-index: 20;
+    height: 80%;
+    width: auto;
+    top: 24%;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#moon{
+    mix-blend-mode: screen;
+    z-index: 5;
+}
+
+section img#stars{
+    mix-blend-mode: screen;
+    left:500px;
+    z-index: 4;
+}
+
+section img#Fenster{
+    left: 200px;
+    z-index: 10;
+}
+section img#Person{
+    z-index: 11;
+}
+section img#Hintergrund{
+    z-index: 2;
+}
+section img#Sternschnuppe{
+    top: -200px;
+    z-index: 6;
+}
+
+section img#Biep{
+    left: 900px;
+    z-index: 15;
+}
+
+#text{
+    position: absolute;
+    right: -350px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 14;
+    left: 2000px;
+    margin-top: 300px;
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: black;
+}
+
+.sectionDiv{
+    background-color: #1c0522;
+    height:80%;
+    margin-left: 1000px;
+}
+
+#panel_1{
+    width: 50%;
+    height: 80%;
+    z-index: 19;
+}
+
+#chair{
+    z-index: 19;
+    left: 10600px;
+    top: 25%;
+    height: 80%;
+    width: auto;
+}
+
+#desk{
+    z-index: 30;
+    left: 13500px;
+    top: 55%;
+    height: 40%;
+    width: auto;
+}
+
+#door{
+    top: 0%;
+    bottom: auto;
+    z-index: 28;
+    left: 41700px;
+    height: 100%;
+    width: auto;
+}
+
+#restaurant_chair {
+    top: 5%;
+    z-index: 10;
+    left: 63000px;
+    height:30%;
+    top:54%;
+    width: auto;
+}
+
+#car_image {
+    z-index: 1;
+    left:-9000px;
+    width: auto;
+    bottom: 10%;
+    top: auto;
+    height: 50%;
+}
+
+#floor1{
+    z-index: 2;
+    left: 10700px;
+    bottom: 0%;
+    top: auto;
+    height: auto;
+    width: 100%;
+}
+
+#door1{
+    z-index: 3;
+    left: 10000px;
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+    width: auto;
+}
+
+#door2{
+    z-index: 50;
+    left: 10000px;
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+    width: auto;
+}
+
+#doorA{
+    z-index: 3;
+    left: 117000px;
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+    width: auto;
+}
+
+#doorB{
+    z-index: 50;
+    left: 117000px;
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+    width: auto;
+}
+
+#nightstand{
+    z-index: 1;
+    left: 35460px;
+    bottom: 16%;
+    top: auto;
+    height: 60%;
+    width: auto;
+}
+
+#panel1{
+    z-index: 10;
+    left: 17500px;
+    height: 130%;
+    width: auto;
+}
+
+#panel2{
+    z-index: 30;
+    left: 17700px;
+    height: 130%;
+    width: auto;
+}
+
+#PunktTransparent {
+    margin-left: 500000px;
+}
+
+#insta {
+    z-index: 30;
+    left: 17700px;
+    top:10%;
+    height: 80%;
+    width: auto;
+}
+
+#whatsapp {
+    z-index: 30;
+    left: -9000px;
+    top: 20%;
+    height: 10%;
+    width: auto;
+}
+
+#BlackTransparent{
+    opacity: 1.0;
+    height: 100%;
+    width: 100%;
+    left: -9000px;
+    z-index: 16;
+}
+
+#plant {
+    z-index: 4;
+    left: 14000px;
+    bottom: 15%;
+    top: auto;
+    height: 50%;
+    width: auto;
+}
+
+#closet {
+    z-index: 3;
+    left: 11400px;
+    bottom: 15%;
+    top: auto;
+    height: 70%;
+    width: auto;
+}
+
+#restaurant_color {
+    z-index: 5;
+    left: -8000px;
+    height: 100%;
+    width: 100%;
+}
+
+
+#restaurant_colorfront {
+    z-index: 60;
+    left: -8000px;
+    height: 100%;
+    width: 100%;
+}
+
+#restaurant_grey {
+    z-index: 5;
+    left: -8000px;
+    height: 100%;
+    width: 100%;
+}
+
+#bed {
+    z-index: 5;
+    left: 171000px;
+    height: 85%;
+    bottom: 0%;
+    top: auto;
+    width: auto;
+}
+
+#hoodie {
+    z-index: 5;
+    left: -5000px;
+    width: auto;
+    bottom: 19%;
+    top:auto;
+    height: 74%;
+}
+
+#akku {
+    z-index: 50;
+    left: -5000px;
+    bottom: 10%;
+    top: auto;
+    height: 100%;
+    width: auto;
+}
+
+#star {
+    z-index: 15;
+    left: -5000px;
+    height: 100%;
+    width: 100%;
+}
+
+
+#black {
+    z-index: 210;
+    left: -5000px;
+    height: 100%;
+    width: 100%;
+}
+
+#ampel {
+    z-index: 0;
+    left: -5000px;
+    height: 100%;
+    width: 100%;
+}
+
+#google_image {
+    z-index: 11;
+    left: -5000px;
+    height: 100%;
+    width: 100%;
+}
+
+#button {
+    top: 20%;
+    left: -1000px;
+    z-index: 60;
+    opacity: 0;
+}
+
+#warning {
+    left: -5000px;
+    opacity: 0.0;
+    width: 100%;
+    height: auto;
+    z-index: 200;
+}
+
+#signiture {
+    width: 15%;
+    height: auto;
+    left: 5300px;
+    bottom: 45%;
+    top: auto;
+}
