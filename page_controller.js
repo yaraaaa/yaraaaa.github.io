@@ -100,7 +100,7 @@ window.addEventListener('scroll', function(){
             showWarning  = true;
             warning.style.left = value + 'px';
             warning.style.opacity = "1.0";
-            //window.scrollTo(lastValue,0); 
+            window.scrollTo(lastValue,0); 
             return;
         } else {
             hasJustRestarted = false;
