@@ -141,7 +141,7 @@ window.addEventListener('scroll', function(){
     if ((value>62400  && !endAction1) || isSitting) { restaurant_chair.style.left = value + 500 + 'px';} 
 
     if (value>15000 && (value<28000 && !endAction)) { insta.style.left = value + 2000 + 'px';
-        button.style.left = value + 2000 + 'px';
+        //button.style.left = value + 2000 + 'px';
         } else {
         insta.style.left = 17700 + 'px';
     }
